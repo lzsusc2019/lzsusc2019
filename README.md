@@ -1,17 +1,12 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=180&section=header&text=Ling&fontSize=56&fontColor=ffffff&desc=%E5%90%8E%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%20%C2%B7%204%20%E5%B9%B4%E7%BB%8F%E9%AA%8C%20%C2%B7%20AI%20Agent%20%E5%B7%A5%E7%A8%8B%E5%8C%96&descSize=18&descAlignY=75" width="100%" alt="Ling" />
-</p>
+<h1 align="center">Ling</h1>
+
+<p align="center"><b>后端工程师 · 4 年经验 · 一线大厂</b></p>
 
 <p align="center">
-  <a href="https://github.com/lzsusc2019"><img src="https://komarev.com/ghpvc/?username=lzsusc2019&label=Visitors&color=7C3AED&style=flat-square" alt="Visitors" /></a>
+  <a href="https://github.com/lzsusc2019"><img src="https://visitor-badge.laobi.icu/badge?page_id=lzsusc2019.lzsusc2019&left_text=Visitors&left_color=7C3AED" alt="Visitors" /></a>
   <a href="https://lzsusc2019.github.io"><img src="https://img.shields.io/badge/博客-lzsusc2019.github.io-7C3AED?style=flat-square&logo=jekyll&logoColor=white" alt="Blog" /></a>
   <a href="https://github.com/lzsusc2019"><img src="https://img.shields.io/badge/GitHub-lzsusc2019-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:15974286796@163.com"><img src="https://img.shields.io/badge/Email-联系我-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/lzsusc2019?style=flat-square&label=Followers&color=7C3AED" alt="Followers" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Flzsusc2019&query=%24.public_repos&label=Repos&color=7C3AED&style=flat-square" alt="Repos" />
 </p>
 
 ---
@@ -70,13 +65,7 @@
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lzsusc2019&theme=transparent&hide_border=true" alt="GitHub Streak" width="495" />
-</p>
-
----
-
 **联系**
 
 - 博客：<https://lzsusc2019.github.io>
-- 邮件：见博客左侧栏邮件图标
+- 邮件：见上方 Email 按钮或博客左侧栏邮件图标
