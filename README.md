@@ -1,5 +1,5 @@
 <p align="center">
-  <b>中文</b> · <a href="#en">English</a>
+  <b>中文</b> · <a href="#about">English</a>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <a href="mailto:15974286796@163.com"><img src="https://img.shields.io/badge/Email-联系我-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<h2 id="zh">关于</h2>
+## 关于
 
 做两件事：把散落在各业务系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
 
@@ -79,9 +79,7 @@
 
 ---
 
-<h2 id="en">About</h2>
-
-<p align="center"><sub><a href="#zh">↑ 中文</a></sub></p>
+## About
 
 I work on two things: consolidating duplicated capabilities scattered across business systems into unified platforms, and taking AI agents from demo to production.
 
