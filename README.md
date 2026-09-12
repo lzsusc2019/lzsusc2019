@@ -1,6 +1,8 @@
-<h1 align="center">Ling</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=180&section=header&text=Engineer&fontSize=56&fontColor=ffffff&desc=4%20Years%20Experience%20%C2%B7%20Big%20Tech&descSize=20&descAlignY=75" width="100%" alt="Engineer" />
+</p>
 
-<p align="center"><b>后端工程师 · 4 年经验 · 一线大厂</b></p>
+<p align="center"><b>平台架构 · AI Agent 工程化</b></p>
 
 <p align="center">
   <a href="https://github.com/lzsusc2019"><img src="https://visitor-badge.laobi.icu/badge?page_id=lzsusc2019.lzsusc2019&left_text=Visitors&left_color=7C3AED" alt="Visitors" /></a>
@@ -62,6 +64,13 @@
 </details>
 
 更多见 **[博客精选](https://lzsusc2019.github.io/featured/)** · [全部文章](https://lzsusc2019.github.io/archives/)
+
+---
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=lzsusc2019&show_icons=true&title_color=7C3AED&icon_color=7C3AED&text_color=434d58&bg_color=00000000&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lzsusc2019&layout=compact&title_color=7C3AED&text_color=434d58&bg_color=00000000&hide_border=true&langs_count=6" alt="Top Languages" />
+</p>
 
 ---
 
