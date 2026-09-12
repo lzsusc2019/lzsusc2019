@@ -21,8 +21,6 @@
 
 - 🤖 **AI Agent 工程化** — 智能体中台，支撑 10+ 业务系统的 Agent 对话。可用性 99.9%、工具调用成功率 98%、长程任务恢复率 99%
 - 🏗️ **平台架构** — 定时调度（60+ 子系统、精度 ≤1s、峰值 QPS 2000+）与配置中心（150+ 子系统、秒级生效）
-- ⚡ **AI Coding** — 每天用 Claude Code / Gemini CLI，关注 Harness 设计与工具链效率
-- ✍️ **写作** — 13 篇工程笔记，记录的是权衡和取舍，不是操作步骤
 
 **技术栈**
 
@@ -95,8 +93,6 @@ I work on two things: consolidating duplicated capabilities across subsystems in
 
 - 🤖 **AI Agent Engineering** — Agent middle platform serving 10+ business systems. 99.9% availability, 98% tool-call success rate, 99% long-horizon task recovery
 - 🏗️ **Platform Architecture** — Job scheduling (60+ subsystems, sub-second precision, 2000+ QPS peak) and config center (150+ subsystems, changes live in seconds)
-- ⚡ **AI Coding** — Coding daily with Claude Code and Gemini CLI, focused on harness design and toolchain efficiency
-- ✍️ **Writing** — 13 engineering notes about trade-offs and decisions, not tutorials
 
 **Tech Stack**
 
