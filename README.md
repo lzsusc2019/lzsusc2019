@@ -15,14 +15,14 @@
 
 ## 关于
 
-做两件事：把散落在各业务线的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
+做两件事：把散落在各子系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
 
 **在做的事**
 
-- 🏗️ **平台架构** — 调度、配置、安全三块基础平台的从 0 到 1，以及存量系统的平滑迁移
-- 🤖 **AI Agent 工程化** — 做 Agent Runtime 与有状态沙箱，让 Agent 从 Demo 走到生产
-- ⚡ **AI Coding** — 每天用 Claude Code / Gemini CLI 写代码，关注 Harness 设计与工具链效率
-- ✍️ **写作** — 13 篇工程实践笔记，只讲「为什么这么做」
+- 🏗️ **平台架构** — 调度 / 配置 / 安全三块基础平台，服务 150+ 子系统。调度精度 ≤1s、峰值 QPS 2000+，配置秒级生效，密钥轮转 100% 自动化
+- 🤖 **AI Agent 工程化** — Agent Runtime、有状态沙箱、断点续传。Demo 拼创意，生产拼可靠性
+- ⚡ **AI Coding** — 每天用 Claude Code / Gemini CLI，关注 Harness 设计与工具链效率
+- ✍️ **写作** — 13 篇工程笔记，记录的是权衡和取舍，不是操作步骤
 
 **技术栈**
 
@@ -89,14 +89,14 @@
 
 ## About
 
-I work on two things: consolidating duplicated capabilities across business teams into unified platforms, and taking AI agents from demo to production.
+I work on two things: consolidating duplicated capabilities across subsystems into unified platforms, and taking AI agents from demo to production.
 
 **What I'm working on**
 
-- 🏗️ **Platform Architecture** — Built scheduling, config, and security platforms from scratch, plus zero-downtime migration of legacy systems
-- 🤖 **AI Agent Engineering** — Building Agent Runtime and stateful sandboxes to take agents from demo to production
-- ⚡ **AI Coding** — Writing code daily with Claude Code and Gemini CLI, focused on harness design and toolchain efficiency
-- ✍️ **Writing** — 13 engineering notes explaining *why* we do things, not just *what* we did
+- 🏗️ **Platform Architecture** — Scheduling, config, and security platforms serving 150+ subsystems. Sub-second scheduling precision at 2000+ QPS peak, config changes live in seconds, fully automated key rotation
+- 🤖 **AI Agent Engineering** — Agent Runtime, stateful sandboxes, resumable execution. Demos are about ideas; production is about reliability
+- ⚡ **AI Coding** — Coding daily with Claude Code and Gemini CLI, focused on harness design and toolchain efficiency
+- ✍️ **Writing** — 13 engineering notes about trade-offs and decisions, not tutorials
 
 **Tech Stack**
 
