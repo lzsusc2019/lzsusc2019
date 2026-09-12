@@ -1,8 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=180&section=header&text=Engineer&fontSize=56&fontColor=ffffff&desc=4%20Years%20Experience%20%C2%B7%20Big%20Tech&descSize=20&descAlignY=75" width="100%" alt="Engineer" />
+  <b>中文</b> · <a href="#en">English</a>
 </p>
 
-<p align="center"><b>平台架构 · AI Agent 工程化</b></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=180&section=header&text=4%20Years%20Experience&fontSize=48&fontColor=ffffff&desc=Engineer&descSize=18&descAlignY=76" width="100%" alt="4 Years Experience" />
+</p>
 
 <p align="center">
   <a href="https://github.com/lzsusc2019"><img src="https://visitor-badge.laobi.icu/badge?page_id=lzsusc2019.lzsusc2019&left_text=Visitors&left_color=7C3AED" alt="Visitors" /></a>
@@ -11,7 +13,7 @@
   <a href="mailto:15974286796@163.com"><img src="https://img.shields.io/badge/Email-联系我-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
----
+<h2 id="zh">关于</h2>
 
 做两件事：把散落在各业务系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
 
@@ -28,8 +30,6 @@
 </p>
 
 `MyBatis` · 分布式锁与事务 · 分库分表 · 最终一致性 · 线程池与并发容器 · Agent Runtime & Tool Use
-
----
 
 **写过的文章**
 
@@ -65,6 +65,11 @@
 
 更多见 **[博客精选](https://lzsusc2019.github.io/featured/)** · [全部文章](https://lzsusc2019.github.io/archives/)
 
+**联系**
+
+- 博客：<https://lzsusc2019.github.io>
+- 邮件：见上方 Email 按钮或博客左侧栏邮件图标
+
 ---
 
 <p align="center">
@@ -74,7 +79,37 @@
 
 ---
 
-**联系**
+<h2 id="en">About</h2>
 
-- 博客：<https://lzsusc2019.github.io>
-- 邮件：见上方 Email 按钮或博客左侧栏邮件图标
+<p align="center"><sub><a href="#zh">↑ 中文</a></sub></p>
+
+I work on two things: consolidating duplicated capabilities scattered across business systems into unified platforms, and taking AI agents from demo to production.
+
+**What I'm working on**
+
+- **Platform Architecture** — Built a job scheduling platform, a configuration center, and a security service center from scratch. Focused on the smooth evolution of large-scale systems: zero-downtime migration of legacy systems, canary releases, and end-to-end consistency
+- **AI Agent Engineering** — Building an agent-facing middle platform: Agent Runtime, distributed stateful sandboxes, checkpoint persistence with resumable execution, and hot-reloading of Skills and MCP
+- **AI Coding** — Daily heavy user of Claude Code and Gemini CLI. Focused on harness design and toolchain efficiency
+
+**Tech Stack**
+
+`Java` `Python` `Spring Boot` `MyBatis` `MySQL` `Redis` `Kafka` `Docker`
+
+Distributed locks & transactions · Sharding · Eventual consistency · Thread pools & concurrent containers · Agent Runtime & Tool Use
+
+**Writing**
+
+Engineering-focused. I try to explain *why* we do things, not just *what* we did. All articles are in Chinese.
+
+- [Multi-Agent System Architecture: pattern evolution from monolithic models to distributed collaboration](https://lzsusc2019.github.io/posts/multi-agent-architecture-patterns/)
+- [From Black Box to Digital Organization: a deep dive into multi-agent design paradigms](https://lzsusc2019.github.io/posts/multi-agent-design-paradigms-deep-dive/)
+- [Harness Engineering: the evolution and practice of controlling large models](https://lzsusc2019.github.io/posts/harness-engineering-deep-dive/)
+- [Agent Skills Guide: building an engineering skill library for AI coding agents](https://lzsusc2019.github.io/posts/agent-skills-guide/)
+- [Four Classic Production Issues: deadlocks, GC, OOM, and connection pools](https://lzsusc2019.github.io/posts/production-troubleshooting-guide/)
+
+More at **[Featured](https://lzsusc2019.github.io/featured/)** · [All posts](https://lzsusc2019.github.io/archives/)
+
+**Contact**
+
+- Blog: <https://lzsusc2019.github.io>
+- Email: see the Email button above
