@@ -19,8 +19,8 @@
 
 **在做的事**
 
-- 🏗️ **平台架构** — 调度 / 配置 / 安全三块基础平台，服务 150+ 子系统。调度精度 ≤1s、峰值 QPS 2000+，配置秒级生效，密钥轮转 100% 自动化
-- 🤖 **AI Agent 工程化** — Agent Runtime、有状态沙箱、断点续传。Demo 拼创意，生产拼可靠性
+- 🤖 **AI Agent 工程化** — 智能体中台：Agent Runtime、沙箱、Checkpoint 断点续传、Skill/MCP 热加载。接入 10+ 业务系统，日均数千次对话，API 可用性 99.9%
+- 🏗️ **平台架构** — 定时调度（60+ 子系统、精度 ≤1s、峰值 QPS 2000+）与配置中心（150+ 子系统、秒级生效）
 - ⚡ **AI Coding** — 每天用 Claude Code / Gemini CLI，关注 Harness 设计与工具链效率
 - ✍️ **写作** — 13 篇工程笔记，记录的是权衡和取舍，不是操作步骤
 
@@ -32,12 +32,12 @@
 
 | 方向 | 技术 |
 |---|---|
-| 语言与框架 | Java · Python · Spring Boot · MyBatis |
+| 语言与框架 | Java · Python (asyncio) · Spring Boot · MyBatis |
 | 存储 | MySQL · Redis |
-| 消息与容器 | Kafka · Docker |
+| 消息与容器 | Kafka · Docker · K8s · CI/CD |
 | 分布式架构 | 分布式锁与事务 · 分库分表 · 最终一致性 |
 | 并发编程 | 线程池与并发容器 |
-| AI 工程 | Agent Runtime · Tool Use |
+| AI 工程 | Agent Runtime · Tool Use 编排 · Checkpoint · HITL · 沙箱 · MCP |
 
 **写过的文章**
 
@@ -93,8 +93,8 @@ I work on two things: consolidating duplicated capabilities across subsystems in
 
 **What I'm working on**
 
-- 🏗️ **Platform Architecture** — Scheduling, config, and security platforms serving 150+ subsystems. Sub-second scheduling precision at 2000+ QPS peak, config changes live in seconds, fully automated key rotation
-- 🤖 **AI Agent Engineering** — Agent Runtime, stateful sandboxes, resumable execution. Demos are about ideas; production is about reliability
+- 🤖 **AI Agent Engineering** — Agent middle platform: Agent Runtime, sandboxes, checkpoint-based resumable execution, hot-reloading of Skills/MCP. Serving 10+ business systems with thousands of daily agent conversations at 99.9% API availability
+- 🏗️ **Platform Architecture** — Job scheduling (60+ subsystems, sub-second precision, 2000+ QPS peak) and config center (150+ subsystems, changes live in seconds)
 - ⚡ **AI Coding** — Coding daily with Claude Code and Gemini CLI, focused on harness design and toolchain efficiency
 - ✍️ **Writing** — 13 engineering notes about trade-offs and decisions, not tutorials
 
@@ -102,12 +102,12 @@ I work on two things: consolidating duplicated capabilities across subsystems in
 
 | Area | Technologies |
 |---|---|
-| Languages & Frameworks | Java · Python · Spring Boot · MyBatis |
+| Languages & Frameworks | Java · Python (asyncio) · Spring Boot · MyBatis |
 | Storage | MySQL · Redis |
-| Messaging & Containers | Kafka · Docker |
+| Messaging & Containers | Kafka · Docker · K8s · CI/CD |
 | Distributed Architecture | Distributed locks & transactions · Sharding · Eventual consistency |
 | Concurrency | Thread pools & concurrent containers |
-| AI Engineering | Agent Runtime · Tool Use |
+| AI Engineering | Agent Runtime · Tool Use orchestration · Checkpoint · HITL · Sandboxes · MCP |
 
 **Writing**
 
