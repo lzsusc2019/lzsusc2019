@@ -3,7 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=180&section=header&text=Engineer%20%C2%B7%204%20Years%20Experience&fontSize=42&fontColor=ffffff" width="100%" alt="Engineer · 4 Years Experience" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="Engineer · 4 Years Experience" />
+  </picture>
 </p>
 
 <p align="center">
@@ -80,7 +84,10 @@
 ---
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=lzsusc2019&show_icons=true&title_color=7C3AED&icon_color=7C3AED&text_color=434d58&bg_color=00000000&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzsusc2019&theme=github" alt="Profile Details" />
+</p>
+
+<p align="center">
   <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lzsusc2019&layout=compact&title_color=7C3AED&text_color=434d58&bg_color=00000000&hide_border=true&langs_count=6" alt="Top Languages" />
 </p>
 
