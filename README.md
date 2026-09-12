@@ -4,6 +4,13 @@
 
 做两件事：把散落在各业务系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
 
+<p align="center">
+  <a href="https://github.com/lzsusc2019"><img src="https://komarev.com/ghpvc/?username=lzsusc2019&label=Visitors&color=7C3AED&style=flat-square" alt="Visitors" /></a>
+  <a href="https://lzsusc2019.github.io"><img src="https://img.shields.io/badge/博客-lzsusc2019.github.io-7C3AED?style=flat-square&logo=jekyll&logoColor=white" alt="Blog" /></a>
+  <a href="https://github.com/lzsusc2019"><img src="https://img.shields.io/badge/GitHub-lzsusc2019-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:15974286796@163.com"><img src="https://img.shields.io/badge/Email-联系我-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
 ---
 
 **在做的事**
@@ -30,6 +37,12 @@
 - [生产环境四大经典问题排查指南：死锁、GC、OOM 与连接池](https://lzsusc2019.github.io/posts/production-troubleshooting-guide/)
 
 更多见 **[lzsusc2019.github.io](https://lzsusc2019.github.io/featured/)** · [全部文章](https://lzsusc2019.github.io/archives/)
+
+---
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lzsusc2019&theme=transparent&hide_border=true" alt="GitHub Streak" width="495" />
+</p>
 
 ---
 
