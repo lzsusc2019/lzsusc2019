@@ -25,17 +25,18 @@
 **技术栈**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,spring,mysql,redis,kafka,docker" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=java,python,spring,mysql,redis,kafka,docker,kubernetes" alt="Tech Stack" />
 </p>
 
 | 方向 | 技术 |
 |---|---|
-| 语言与框架 | Java · Python (asyncio) · Spring Boot · MyBatis |
-| 存储 | MySQL · Redis |
-| 消息与容器 | Kafka · Docker · K8s · CI/CD |
-| 分布式架构 | 分布式锁与事务 · 分库分表 · 最终一致性 |
-| 并发编程 | 线程池与并发容器 |
-| AI 工程 | Agent Runtime · Tool Use 编排 · Checkpoint · HITL · 沙箱 · MCP |
+| AI Agent | Agent Runtime · Tool Use 编排 · Checkpoint · HITL · 沙箱 |
+| LLM 应用 | Function Calling · Prompt Engineering · MCP · 上下文与状态管理 |
+| 语言与框架 | Java（JVM/GC）· Python（asyncio）· Spring Boot · MyBatis |
+| 存储 | MySQL（索引/事务/MVCC）· Redis（集群/分布式锁/缓存一致性）|
+| 中间件与治理 | Kafka（顺序消费）· 服务治理 · 熔断降级 · 配置中心 |
+| 并发与分布式 | 线程池 · 锁机制 · 并发容器 · 分布式锁 · 分库分表 |
+| 工程能力 | 系统设计 · 慢 SQL 治理 · 全链路压测 · Docker/K8s/CI-CD |
 
 **写过的文章**
 
@@ -98,12 +99,13 @@ I work on two things: consolidating duplicated capabilities across subsystems in
 
 | Area | Technologies |
 |---|---|
-| Languages & Frameworks | Java · Python (asyncio) · Spring Boot · MyBatis |
-| Storage | MySQL · Redis |
-| Messaging & Containers | Kafka · Docker · K8s · CI/CD |
-| Distributed Architecture | Distributed locks & transactions · Sharding · Eventual consistency |
-| Concurrency | Thread pools & concurrent containers |
-| AI Engineering | Agent Runtime · Tool Use orchestration · Checkpoint · HITL · Sandboxes · MCP |
+| AI Agent | Agent Runtime · Tool Use orchestration · Checkpoint · HITL · Sandboxes |
+| LLM Applications | Function Calling · Prompt Engineering · MCP · Context & state management |
+| Languages & Frameworks | Java (JVM/GC) · Python (asyncio) · Spring Boot · MyBatis |
+| Storage | MySQL (indexing/transactions/MVCC) · Redis (cluster/distributed locks/cache consistency) |
+| Middleware & Governance | Kafka (ordered consumption) · Service governance · Circuit breaking · Config center |
+| Concurrency & Distribution | Thread pools · Locking · Concurrent containers · Distributed locks · Sharding |
+| Engineering | System design · Slow SQL remediation · Full-link load testing · Docker/K8s/CI-CD |
 
 **Writing**
 
