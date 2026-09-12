@@ -42,6 +42,11 @@
 | 并发与分布式 | 线程池 · 锁机制 · 并发容器 · 分布式锁 · 分库分表 |
 | 工程能力 | 系统设计 · 慢 SQL 治理 · 全链路压测 · Docker/K8s/CI-CD |
 
+**开源项目**
+
+🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — DSH 插件：盯着本机装的 Agent Skill，指出哪一个已经落后于它的上游仓库。Host/Client 双半边架构，无后台轮询，远端 SHA 缓存 24h，离线时显示 `unknown` 而不误报
+`Cordis` · `React 18` · `Node.js` · `zod` · MIT · v0.18
+
 **写过的文章**
 
 偏工程实践，尽量写清楚「为什么这么做」而不只是「做了什么」。
@@ -114,6 +119,11 @@ I work on two things: consolidating duplicated capabilities across subsystems in
 | Middleware & Governance | Kafka (ordered consumption) · Service governance · Circuit breaking · Config center |
 | Concurrency & Distribution | Thread pools · Locking · Concurrent containers · Distributed locks · Sharding |
 | Engineering | System design · Slow SQL remediation · Full-link load testing · Docker/K8s/CI-CD |
+
+**Open Source**
+
+🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — A DSH plugin that watches the agent skills installed on your machine and flags the managed ones that have fallen behind their upstream repository. Host/Client halves, no background polling, 24h remote-SHA cache, and offline checks report `unknown` instead of a false alarm
+`Cordis` · `React 18` · `Node.js` · `zod` · MIT · v0.18
 
 **Writing**
 
