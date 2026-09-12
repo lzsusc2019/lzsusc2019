@@ -15,13 +15,14 @@
 
 ## 关于
 
-做两件事：把散落在各业务系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
+做两件事：把散落在各业务线的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
 
 **在做的事**
 
-- **平台架构** — 定时任务调度平台、配置中心、安全服务中心的从 0 到 1；关注大规模系统的平滑演进：存量系统零故障迁移、能力灰度上线、上下游链路一致性
-- **AI Agent 工程化** — 智能体用户面中台，涉及 Agent Runtime、分布式有状态沙箱、Checkpoint 持久化与断点续传、Skill/MCP 热加载
-- **AI Coding** — 日常重度使用 Claude Code / Gemini CLI 等工具，关注 Harness 设计与工具链效率
+- 🏗️ **平台架构** — 调度、配置、安全三块基础平台的从 0 到 1，以及存量系统的平滑迁移
+- 🤖 **AI Agent 工程化** — 做 Agent Runtime 与有状态沙箱，让 Agent 从 Demo 走到生产
+- ⚡ **AI Coding** — 每天用 Claude Code / Gemini CLI 写代码，关注 Harness 设计与工具链效率
+- ✍️ **写作** — 13 篇工程实践笔记，只讲「为什么这么做」
 
 **技术栈**
 
@@ -88,13 +89,14 @@
 
 ## About
 
-I work on two things: consolidating duplicated capabilities scattered across business systems into unified platforms, and taking AI agents from demo to production.
+I work on two things: consolidating duplicated capabilities across business teams into unified platforms, and taking AI agents from demo to production.
 
 **What I'm working on**
 
-- **Platform Architecture** — Built a job scheduling platform, a configuration center, and a security service center from scratch. Focused on the smooth evolution of large-scale systems: zero-downtime migration of legacy systems, canary releases, and end-to-end consistency
-- **AI Agent Engineering** — Building an agent-facing middle platform: Agent Runtime, distributed stateful sandboxes, checkpoint persistence with resumable execution, and hot-reloading of Skills and MCP
-- **AI Coding** — Daily heavy user of Claude Code and Gemini CLI. Focused on harness design and toolchain efficiency
+- 🏗️ **Platform Architecture** — Built scheduling, config, and security platforms from scratch, plus zero-downtime migration of legacy systems
+- 🤖 **AI Agent Engineering** — Building Agent Runtime and stateful sandboxes to take agents from demo to production
+- ⚡ **AI Coding** — Writing code daily with Claude Code and Gemini CLI, focused on harness design and toolchain efficiency
+- ✍️ **Writing** — 13 engineering notes explaining *why* we do things, not just *what* we did
 
 **Tech Stack**
 
