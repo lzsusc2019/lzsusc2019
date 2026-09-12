@@ -88,6 +88,7 @@
 </p>
 
 <p align="center">
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=lzsusc2019&show_icons=true&title_color=7C3AED&icon_color=7C3AED&text_color=434d58&bg_color=00000000&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
   <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lzsusc2019&layout=compact&title_color=7C3AED&text_color=434d58&bg_color=00000000&hide_border=true&langs_count=6" alt="Top Languages" />
 </p>
 
