@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=180&section=header&text=4%20Years%20Experience&fontSize=48&fontColor=ffffff&desc=Engineer&descSize=18&descAlignY=76" width="100%" alt="4 Years Experience" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=180&section=header&text=Engineer%20%C2%B7%204%20Years%20Experience&fontSize=42&fontColor=ffffff" width="100%" alt="Engineer · 4 Years Experience" />
 </p>
 
 <p align="center">
@@ -29,7 +29,14 @@
   <img src="https://skillicons.dev/icons?i=java,python,spring,mysql,redis,kafka,docker" alt="Tech Stack" />
 </p>
 
-`MyBatis` · 分布式锁与事务 · 分库分表 · 最终一致性 · 线程池与并发容器 · Agent Runtime & Tool Use
+| 方向 | 技术 |
+|---|---|
+| 语言与框架 | Java · Python · Spring Boot · MyBatis |
+| 存储 | MySQL · Redis |
+| 消息与容器 | Kafka · Docker |
+| 分布式架构 | 分布式锁与事务 · 分库分表 · 最终一致性 |
+| 并发编程 | 线程池与并发容器 |
+| AI 工程 | Agent Runtime · Tool Use |
 
 **写过的文章**
 
@@ -91,9 +98,14 @@ I work on two things: consolidating duplicated capabilities scattered across bus
 
 **Tech Stack**
 
-`Java` `Python` `Spring Boot` `MyBatis` `MySQL` `Redis` `Kafka` `Docker`
-
-Distributed locks & transactions · Sharding · Eventual consistency · Thread pools & concurrent containers · Agent Runtime & Tool Use
+| Area | Technologies |
+|---|---|
+| Languages & Frameworks | Java · Python · Spring Boot · MyBatis |
+| Storage | MySQL · Redis |
+| Messaging & Containers | Kafka · Docker |
+| Distributed Architecture | Distributed locks & transactions · Sharding · Eventual consistency |
+| Concurrency | Thread pools & concurrent containers |
+| AI Engineering | Agent Runtime · Tool Use |
 
 **Writing**
 
