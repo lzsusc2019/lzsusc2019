@@ -4,9 +4,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img src="assets/banner-light.svg" width="100%" alt="Engineer · 4 Years Experience" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-engineer-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-engineer-light.svg">
+    <img src="assets/banner-engineer-light.svg" width="100%" alt="Engineer · 4 Years Experience" />
   </picture>
 </p>
 
