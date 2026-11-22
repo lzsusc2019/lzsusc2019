@@ -36,7 +36,7 @@
 |---|---|
 | Client | SwiftUI · Swift Concurrency · system SQLite · PWA |
 | Agent | Agent Loop · Tool Use · Checkpoint · HITL |
-| LLM | Structured extraction · Citation checks · retry & cost control |
+| LLM | Structured extraction · Citations · Retry & cost |
 | Server | Python · Java · Spring Boot |
 | Data | SQLite · MySQL · Redis |
 
