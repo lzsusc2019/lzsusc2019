@@ -1,55 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="854" height="180" viewBox="0 0 854 180" fill="none">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="854" y2="180" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FAF7FF"/>
-      <stop offset="0.55" stop-color="#F3EBFF"/>
-      <stop offset="1" stop-color="#EDE4FE"/>
-    </linearGradient>
-    <linearGradient id="wave1" x1="0" y1="0" x2="854" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="854" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#7C3AED"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" fill="none" role="img" aria-label="Local-first AI products">
+  <rect width="900" height="240" fill="#FCFCFD"/>
+  <rect x="72" y="0" width="1" height="240" fill="#E5E7EB"/>
 
-  <rect width="854" height="180" fill="url(#bg)"/>
-
-  <circle cx="760" cy="34" r="58" fill="#7C3AED" opacity="0.06">
-    <animate attributeName="opacity" values="0.06;0.16;0.06" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="92" cy="150" r="46" fill="#A78BFA" opacity="0.06">
-    <animate attributeName="opacity" values="0.05;0.14;0.05" dur="8s" repeatCount="indefinite"/>
-  </circle>
-
-  <g>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-854 0" dur="26s" repeatCount="indefinite"/>
-    <path d="M0 138 Q213 108 427 138 T854 138 V180 H0 Z" fill="url(#wave1)" opacity="0.10"/>
-    <path d="M854 138 Q1067 108 1281 138 T1708 138 V180 H854 Z" fill="url(#wave1)" opacity="0.10"/>
+  <g opacity="0.45" stroke="#D8D5F0" stroke-width="0.8" fill="none">
+    <circle cx="742" cy="120" r="34"/>
+    <circle cx="742" cy="120" r="58"/>
+    <circle cx="742" cy="120" r="82"/>
+    <circle cx="742" cy="120" r="106"/>
   </g>
-  <g>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-854 0" dur="18s" repeatCount="indefinite"/>
-    <path d="M0 154 Q213 128 427 154 T854 154 V180 H0 Z" fill="url(#wave1)" opacity="0.16"/>
-    <path d="M854 154 Q1067 128 1281 154 T1708 154 V180 H854 Z" fill="url(#wave1)" opacity="0.16"/>
-  </g>
-  <g>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-854 0" dur="12s" repeatCount="indefinite"/>
-    <path d="M0 168 Q213 150 427 168 T854 168 V180 H0 Z" fill="url(#wave1)" opacity="0.24"/>
-    <path d="M854 168 Q1067 150 1281 168 T1708 168 V180 H854 Z" fill="url(#wave1)" opacity="0.24"/>
-  </g>
+  <circle cx="742" cy="120" r="3.5" fill="#7C3AED"/>
 
-  <rect x="0" y="0" width="854" height="3" fill="url(#accent)"/>
+  <text x="112" y="86" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="10.5" letter-spacing="3.2" fill="#9CA3AF">INDEPENDENT · LOCAL-FIRST</text>
 
-  <text x="427" y="84" text-anchor="middle"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-size="34" font-weight="700" fill="#3B0764" letter-spacing="1.2">AI Products · Local-first</text>
+  <text x="110" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="38" font-weight="300" letter-spacing="-0.6" fill="#111827">Local-first AI products</text>
 
-  <text x="427" y="114" text-anchor="middle"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-size="15" font-weight="400" fill="#6D28D9" letter-spacing="0.8">一个人做完数据模型、服务端与 iOS 客户端</text>
+  <rect x="110" y="150" width="34" height="1.5" fill="#7C3AED"/>
 
-  <rect x="377" y="132" width="100" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="112" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="15" fill="#6B7280">数据先可信，功能再往上长 · 从数据模型做到 iOS 客户端</text>
 </svg>
