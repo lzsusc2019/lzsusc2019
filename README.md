@@ -19,25 +19,26 @@
 
 ## 关于
 
-做两件事：把散落在各子系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。
+做两件事：把散落在各子系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。业余还在把「个人数据该怎么被相信」这件事做成一个能跑的产品。
 
 **在做的事**
 
 - 🤖 **AI Agent 工程化** — 智能体中台，支撑 10+ 业务系统的 Agent 对话。可用性 99.9%、工具调用成功率 98%、长程任务恢复率 99%
 - 🏗️ **平台架构** — 定时调度（60+ 子系统、精度 ≤1s、峰值 QPS 2000+）与配置中心（150+ 子系统、秒级生效）
+- 📓 **日知 Daybook**（个人项目）— 只属于一个人的本地数据 App：记下吃喝花学，日/周/月自动复盘。SwiftUI + 系统 SQLite 零依赖；原始采集不可变、每个数字都由 SQL 聚合、数据只有一份在本机。247 个测试
 
 **技术栈**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,spring,mysql,redis,kafka,docker,kubernetes" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=java,python,swift,spring,mysql,redis,kafka,docker,kubernetes" alt="Tech Stack" />
 </p>
 
 | 方向 | 技术 |
 |---|---|
 | AI Agent | Agent Runtime · Tool Use 编排 · Checkpoint · HITL · 沙箱 |
 | LLM 应用 | Function Calling · Prompt Engineering · MCP · 上下文与状态管理 |
-| 语言与框架 | Java（JVM/GC）· Python（asyncio）· Spring Boot · MyBatis |
-| 存储 | MySQL（索引/事务/MVCC）· Redis（集群/分布式锁/缓存一致性）|
+| 语言与框架 | Java（JVM/GC）· Python（asyncio）· Swift（SwiftUI/并发）· Spring Boot · MyBatis |
+| 存储 | MySQL（索引/事务/MVCC）· Redis（集群/分布式锁/缓存一致性）· SQLite |
 | 中间件与治理 | Kafka（顺序消费）· 服务治理 · 熔断降级 · 配置中心 |
 | 并发与分布式 | 线程池 · 锁机制 · 并发容器 · 分布式锁 · 分库分表 |
 | 工程能力 | 系统设计 · 慢 SQL 治理 · 全链路压测 · Docker/K8s/CI-CD |
@@ -46,6 +47,9 @@
 
 🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — DSH 插件：盯着本机装的 Agent Skill，指出哪一个已经落后于它的上游仓库。Host/Client 双半边架构，无后台轮询，远端 SHA 缓存 24h，离线时显示 `unknown` 而不误报
 `Cordis` · `React 18` · `Node.js` · `zod` · MIT · v0.18
+
+🔑 **[keyvault](https://github.com/lzsusc2019/keyvault)** — 本地 API key 台账：扫描发现、联网判活，零依赖单页管理界面，key 不出本机
+`Python` · `本地优先` · `零依赖`
 
 **写过的文章**
 
@@ -101,12 +105,13 @@
 
 ## About
 
-I work on two things: consolidating duplicated capabilities across subsystems into unified platforms, and taking AI agents from demo to production.
+I work on two things: consolidating duplicated capabilities across subsystems into unified platforms, and taking AI agents from demo to production. On the side I'm turning "how should personal data earn trust" into a product that actually runs.
 
 **What I'm working on**
 
 - 🤖 **AI Agent Engineering** — Agent middle platform serving 10+ business systems. 99.9% availability, 98% tool-call success rate, 99% long-horizon task recovery
 - 🏗️ **Platform Architecture** — Job scheduling (60+ subsystems, sub-second precision, 2000+ QPS peak) and config center (150+ subsystems, changes live in seconds)
+- 📓 **Daybook** (personal project) — A local-first data app that belongs to exactly one person: log what you eat, drink, spend and learn; get weekly and monthly reviews. SwiftUI + system SQLite, zero dependencies; raw captures are immutable, every number is computed by SQL, and there is exactly one copy of the data, on your phone. 247 tests
 
 **Tech Stack**
 
@@ -114,8 +119,8 @@ I work on two things: consolidating duplicated capabilities across subsystems in
 |---|---|
 | AI Agent | Agent Runtime · Tool Use orchestration · Checkpoint · HITL · Sandboxes |
 | LLM Applications | Function Calling · Prompt Engineering · MCP · Context & state management |
-| Languages & Frameworks | Java (JVM/GC) · Python (asyncio) · Spring Boot · MyBatis |
-| Storage | MySQL (indexing/transactions/MVCC) · Redis (cluster/distributed locks/cache consistency) |
+| Languages & Frameworks | Java (JVM/GC) · Python (asyncio) · Swift (SwiftUI/Concurrency) · Spring Boot · MyBatis |
+| Storage | MySQL (indexing/transactions/MVCC) · Redis (cluster/distributed locks/cache consistency) · SQLite |
 | Middleware & Governance | Kafka (ordered consumption) · Service governance · Circuit breaking · Config center |
 | Concurrency & Distribution | Thread pools · Locking · Concurrent containers · Distributed locks · Sharding |
 | Engineering | System design · Slow SQL remediation · Full-link load testing · Docker/K8s/CI-CD |
@@ -124,6 +129,9 @@ I work on two things: consolidating duplicated capabilities across subsystems in
 
 🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — A DSH plugin that watches the agent skills installed on your machine and flags the managed ones that have fallen behind their upstream repository. Host/Client halves, no background polling, 24h remote-SHA cache, and offline checks report `unknown` instead of a false alarm
 `Cordis` · `React 18` · `Node.js` · `zod` · MIT · v0.18
+
+🔑 **[keyvault](https://github.com/lzsusc2019/keyvault)** — A local API-key ledger: discovery scanning, liveness checks, and a zero-dependency single-page UI. Keys never leave your machine
+`Python` · `local-first` · `zero-dependency`
 
 **Writing**
 
