@@ -1,6 +1,6 @@
 ### Projects
 
-**[Daybook](https://github.com/lzsusc2019/daybook)** — 本地优先的个人数据 App。记录吃喝花学，日/周/月自动复盘。SwiftUI + 系统 SQLite。
+**[Daybook](https://github.com/lzsusc2019/daybook)** — 本地优先的个人数据 App。记录吃喝花学，日/周/月自动复盘。SwiftUI + SQLite。
 
 **[keyvault](https://github.com/lzsusc2019/keyvault)** — 本地 API key 台账，扫描发现与联网判活，零依赖单页界面。
 
@@ -10,7 +10,7 @@
 
 | | |
 |---|---|
-| 客户端 | SwiftUI · Swift Concurrency · system SQLite · PWA |
+| 客户端 | SwiftUI · Swift Concurrency · SQLite · PWA |
 | Agent | Agent Loop · Tool Use · Checkpoint · HITL |
 | LLM | Structured extraction · Citations · Retry & cost |
 | 服务端 | Python · Java · Spring Boot |
