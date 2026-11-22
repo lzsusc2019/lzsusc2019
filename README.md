@@ -6,89 +6,59 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-engineer-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-engineer-light.svg">
-    <img src="assets/banner-engineer-light.svg" width="100%" alt="Engineer · 4 Years Experience" />
+    <img src="assets/banner-engineer-light.svg" width="100%" alt="AI Products · Local-first" />
   </picture>
 </p>
 
 <p align="center">
   <a href="https://github.com/lzsusc2019"><img src="https://visitor-badge.laobi.icu/badge?page_id=lzsusc2019.lzsusc2019&left_text=Visitors&left_color=7C3AED" alt="Visitors" /></a>
-  <a href="https://lzsusc2019.github.io"><img src="https://img.shields.io/badge/博客-lzsusc2019.github.io-7C3AED?style=flat-square&logo=jekyll&logoColor=white" alt="Blog" /></a>
   <a href="https://github.com/lzsusc2019"><img src="https://img.shields.io/badge/GitHub-lzsusc2019-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:15974286796@163.com"><img src="https://img.shields.io/badge/Email-联系我-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ## 关于
 
-做两件事：把散落在各子系统里的重复能力收敛成统一平台，以及让 AI Agent 从 Demo 走到生产。业余还在把「个人数据该怎么被相信」这件事做成一个能跑的产品。
+一个人做 AI 产品。关心的问题很具体：当 AI 开始替人记事、算账、下判断，它给出的每个数字能不能被核对。
 
-**在做的事**
+所以做的东西都朝一个方向 —— **数据先可信，功能再往上长。**
 
-- 🤖 **AI Agent 工程化** — 智能体中台，支撑 10+ 业务系统的 Agent 对话。可用性 99.9%、工具调用成功率 98%、长程任务恢复率 99%
-- 🏗️ **平台架构** — 定时调度（60+ 子系统、精度 ≤1s、峰值 QPS 2000+）与配置中心（150+ 子系统、秒级生效）
-- 📓 **日知 Daybook**（个人项目）— 只属于一个人的本地数据 App：记下吃喝花学，日/周/月自动复盘。SwiftUI + 系统 SQLite 零依赖；原始采集不可变、每个数字都由 SQL 聚合、数据只有一份在本机。247 个测试
+**现在在做**
+
+📓 **日知 Daybook** — 本地优先的个人数据 App：记下吃了什么、喝了什么、钱花到哪、学了什么，日/周/月自动复盘。SwiftUI + 系统 SQLite，零第三方依赖。三条写进代码的硬约束：原始采集不可变、报告里每个数字都由 SQL 聚合、数据只有一份在手机里。
+`Swift` · `SwiftUI` · `SQLite` · `本地优先` · 247 tests
+
+🧭 **[agent-platform](https://github.com/lzsusc2019/agent-platform)** — 灵枢智能体中台 MVP：先把「可恢复、可中断、可审批」这条主路径跑通（Agent Loop + Checkpoint + HITL），沙箱 / 热加载 / MCP 留接口
+`Python` · `Agent Runtime` · `HITL`
+
+🔑 **[keyvault](https://github.com/lzsusc2019/keyvault)** — 本地 API key 台账：扫描发现、联网判活，零依赖单页界面，key 不出本机
+`Python` · `零依赖`
+
+🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — 盯着本机装的 Agent Skill，指出哪一个已经落后于它的上游仓库。Host/Client 双半边架构，无后台轮询，远端 SHA 缓存 24h，离线时显示 `unknown` 而不误报
+`Cordis` · `React 18` · `Node.js` · `zod` · MIT
 
 **技术栈**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,swift,spring,mysql,redis,kafka,docker,kubernetes" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=swift,python,java,ts,sqlite,mysql,redis,docker" alt="Tech Stack" />
 </p>
 
 | 方向 | 技术 |
 |---|---|
-| AI Agent | Agent Runtime · Tool Use 编排 · Checkpoint · HITL · 沙箱 |
-| LLM 应用 | Function Calling · Prompt Engineering · MCP · 上下文与状态管理 |
-| 语言与框架 | Java（JVM/GC）· Python（asyncio）· Swift（SwiftUI/并发）· Spring Boot · MyBatis |
-| 存储 | MySQL（索引/事务/MVCC）· Redis（集群/分布式锁/缓存一致性）· SQLite |
-| 中间件与治理 | Kafka（顺序消费）· 服务治理 · 熔断降级 · 配置中心 |
-| 并发与分布式 | 线程池 · 锁机制 · 并发容器 · 分布式锁 · 分库分表 |
-| 工程能力 | 系统设计 · 慢 SQL 治理 · 全链路压测 · Docker/K8s/CI-CD |
+| 产品与客户端 | SwiftUI · Swift Concurrency · 系统 SQLite（零依赖）· PWA |
+| Agent | Agent Loop · Tool Use 编排 · Checkpoint · HITL · 长期记忆 |
+| LLM 应用 | Function Calling · 结构化抽取 · 引用校验 · 重试与成本治理 |
+| 服务端 | Python（asyncio）· Java · Spring Boot · MyBatis |
+| 数据 | SQLite（schema 迁移 / 聚合口径）· MySQL · Redis |
+| 工程 | 本地优先架构 · 可观测性 · CI 编译签名流水线 · Docker/K8s |
 
-**开源项目**
+**两条写码习惯**
 
-🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — DSH 插件：盯着本机装的 Agent Skill，指出哪一个已经落后于它的上游仓库。Host/Client 双半边架构，无后台轮询，远端 SHA 缓存 24h，离线时显示 `unknown` 而不误报
-`Cordis` · `React 18` · `Node.js` · `zod` · MIT · v0.18
-
-🔑 **[keyvault](https://github.com/lzsusc2019/keyvault)** — 本地 API key 台账：扫描发现、联网判活，零依赖单页管理界面，key 不出本机
-`Python` · `本地优先` · `零依赖`
-
-**写过的文章**
-
-偏工程实践，尽量写清楚「为什么这么做」而不只是「做了什么」。
-
-- [多 Agent 系统架构设计：从单体模型到分布式协同的模式演进](https://lzsusc2019.github.io/posts/multi-agent-architecture-patterns/)
-- [从「黑盒」到「数字组织」：多 Agent 设计范式的横纵深度解析](https://lzsusc2019.github.io/posts/multi-agent-design-paradigms-deep-dive/)
-- [深度研报：Harness Engineering 的演进与控制大模型的工程实践](https://lzsusc2019.github.io/posts/harness-engineering-deep-dive/)
-- [Agent Skills 使用指南：为 AI 编程代理构建工程技能库](https://lzsusc2019.github.io/posts/agent-skills-guide/)
-- [生产环境四大经典问题排查指南：死锁、GC、OOM 与连接池](https://lzsusc2019.github.io/posts/production-troubleshooting-guide/)
-
-<details>
-<summary><b>更多文章（8 篇）</b></summary>
-
-**AI 工具**
-
-- [谁在制造 Vibe Coding 幻觉？四款热门 AI 编程工具的真实生态位](https://lzsusc2019.github.io/posts/vibe-coding-tools-comparison/)
-- [OpenClaw：开箱即用的个人 AI 助手架构详解](https://lzsusc2019.github.io/posts/20260324-openclaw--ai/)
-- [Gemini CLI 常用命令速查手册](https://lzsusc2019.github.io/posts/gemini-cli-commands/)
-
-**算法**
-
-- [算法核心之双指针：从 O(N^2) 到 O(N) 的时空跳跃](https://lzsusc2019.github.io/posts/mastering-two-pointers/)
-- [核心算法模板与题解归档](https://lzsusc2019.github.io/posts/algo-templates/)
-- [算法专题：动态规划之子序列问题](https://lzsusc2019.github.io/posts/dp-subsequence/)
-- [剑指 offer：全系列算法题解大归档](https://lzsusc2019.github.io/posts/jianzhi-offer-all-in-one/)
-
-**工程实践**
-
-- [数据库重连失败问题定位分析](https://lzsusc2019.github.io/posts/db-reconnect-failure/)
-
-</details>
-
-更多见 **[博客精选](https://lzsusc2019.github.io/featured/)** · [全部文章](https://lzsusc2019.github.io/archives/)
+1. 先定数据模型，再写第一行代码。
+2. 能被 SQL 算出来的数字，不交给模型猜。
 
 **联系**
 
-- 博客：<https://lzsusc2019.github.io>
-- 邮件：见上方 Email 按钮或博客左侧栏邮件图标
+- 邮件：见上方 Email 按钮
 
 ---
 
@@ -105,47 +75,40 @@
 
 ## About
 
-I work on two things: consolidating duplicated capabilities across subsystems into unified platforms, and taking AI agents from demo to production. On the side I'm turning "how should personal data earn trust" into a product that actually runs.
+I build AI products on my own. The question I keep working on is concrete: once an AI starts remembering, bookkeeping and judging for a person, can every number it gives be checked?
 
-**What I'm working on**
+So everything I build points the same way — **make the data trustworthy first, then grow features on top of it.**
 
-- 🤖 **AI Agent Engineering** — Agent middle platform serving 10+ business systems. 99.9% availability, 98% tool-call success rate, 99% long-horizon task recovery
-- 🏗️ **Platform Architecture** — Job scheduling (60+ subsystems, sub-second precision, 2000+ QPS peak) and config center (150+ subsystems, changes live in seconds)
-- 📓 **Daybook** (personal project) — A local-first data app that belongs to exactly one person: log what you eat, drink, spend and learn; get weekly and monthly reviews. SwiftUI + system SQLite, zero dependencies; raw captures are immutable, every number is computed by SQL, and there is exactly one copy of the data, on your phone. 247 tests
+**What I'm building**
+
+📓 **Daybook** — a local-first personal data app: log what you eat, drink, spend and learn; get daily, weekly and monthly reviews. SwiftUI + system SQLite, zero third-party dependencies. Three rules enforced in code: raw captures are immutable, every number in a report is computed by SQL, and there is exactly one copy of the data, on your phone.
+`Swift` · `SwiftUI` · `SQLite` · `local-first` · 247 tests
+
+🧭 **[agent-platform](https://github.com/lzsusc2019/agent-platform)** — An agent middle-platform MVP: get the "resumable, interruptible, approvable" path working end to end first (Agent Loop + Checkpoint + HITL), with sandboxing / hot reload / MCP left as interfaces
+`Python` · `Agent Runtime` · `HITL`
+
+🔑 **[keyvault](https://github.com/lzsusc2019/keyvault)** — A local API-key ledger: discovery scanning, liveness checks, and a zero-dependency single-page UI. Keys never leave your machine
+`Python` · `zero-dependency`
+
+🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — Watches the agent skills installed on your machine and flags the managed ones that have fallen behind their upstream repository. Host/Client halves, no background polling, 24h remote-SHA cache, and offline checks report `unknown` instead of a false alarm
+`Cordis` · `React 18` · `Node.js` · `zod` · MIT
 
 **Tech Stack**
 
 | Area | Technologies |
 |---|---|
-| AI Agent | Agent Runtime · Tool Use orchestration · Checkpoint · HITL · Sandboxes |
-| LLM Applications | Function Calling · Prompt Engineering · MCP · Context & state management |
-| Languages & Frameworks | Java (JVM/GC) · Python (asyncio) · Swift (SwiftUI/Concurrency) · Spring Boot · MyBatis |
-| Storage | MySQL (indexing/transactions/MVCC) · Redis (cluster/distributed locks/cache consistency) · SQLite |
-| Middleware & Governance | Kafka (ordered consumption) · Service governance · Circuit breaking · Config center |
-| Concurrency & Distribution | Thread pools · Locking · Concurrent containers · Distributed locks · Sharding |
-| Engineering | System design · Slow SQL remediation · Full-link load testing · Docker/K8s/CI-CD |
+| Product & Client | SwiftUI · Swift Concurrency · system SQLite (zero dependencies) · PWA |
+| Agent | Agent Loop · Tool Use orchestration · Checkpoint · HITL · long-term memory |
+| LLM Applications | Function Calling · structured extraction · citation checks · retry & cost control |
+| Server | Python (asyncio) · Java · Spring Boot · MyBatis |
+| Data | SQLite (schema migrations / aggregate semantics) · MySQL · Redis |
+| Engineering | Local-first architecture · observability · CI build & signing · Docker/K8s |
 
-**Open Source**
+**Two habits**
 
-🛰️ **[skills-watch](https://github.com/lzsusc2019/skills-watch)** — A DSH plugin that watches the agent skills installed on your machine and flags the managed ones that have fallen behind their upstream repository. Host/Client halves, no background polling, 24h remote-SHA cache, and offline checks report `unknown` instead of a false alarm
-`Cordis` · `React 18` · `Node.js` · `zod` · MIT · v0.18
-
-🔑 **[keyvault](https://github.com/lzsusc2019/keyvault)** — A local API-key ledger: discovery scanning, liveness checks, and a zero-dependency single-page UI. Keys never leave your machine
-`Python` · `local-first` · `zero-dependency`
-
-**Writing**
-
-Engineering-focused. I try to explain *why* we do things, not just *what* we did. All articles are in Chinese.
-
-- [Multi-Agent System Architecture: pattern evolution from monolithic models to distributed collaboration](https://lzsusc2019.github.io/posts/multi-agent-architecture-patterns/)
-- [From Black Box to Digital Organization: a deep dive into multi-agent design paradigms](https://lzsusc2019.github.io/posts/multi-agent-design-paradigms-deep-dive/)
-- [Harness Engineering: the evolution and practice of controlling large models](https://lzsusc2019.github.io/posts/harness-engineering-deep-dive/)
-- [Agent Skills Guide: building an engineering skill library for AI coding agents](https://lzsusc2019.github.io/posts/agent-skills-guide/)
-- [Four Classic Production Issues: deadlocks, GC, OOM, and connection pools](https://lzsusc2019.github.io/posts/production-troubleshooting-guide/)
-
-More at **[Featured](https://lzsusc2019.github.io/featured/)** · [All posts](https://lzsusc2019.github.io/archives/)
+1. Define the data model before writing the first line of code.
+2. Any number that SQL can compute is never left to a model to guess.
 
 **Contact**
 
-- Blog: <https://lzsusc2019.github.io>
 - Email: see the Email button above
