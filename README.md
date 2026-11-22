@@ -12,7 +12,7 @@
 |---|---|
 | 客户端 | SwiftUI · Swift Concurrency · system SQLite · PWA |
 | Agent | Agent Loop · Tool Use · Checkpoint · HITL |
-| LLM | Structured extraction · Citation checks · 重试与成本治理 |
+| LLM | Structured extraction · Citations · Retry & cost |
 | 服务端 | Python · Java · Spring Boot |
 | 数据 | SQLite · MySQL · Redis |
 
